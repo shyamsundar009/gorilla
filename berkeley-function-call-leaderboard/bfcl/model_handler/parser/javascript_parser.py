@@ -1,8 +1,8 @@
 from tree_sitter import Language, Parser
 import tree_sitter_javascript
 
-
 JS_LANGUAGE = Language(tree_sitter_javascript.language(), "javascript")
+
 parser = Parser()
 parser.set_language(JS_LANGUAGE)
 

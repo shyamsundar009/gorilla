@@ -144,4 +144,5 @@ UNDERSCORE_TO_DOT = [
     "NousResearch/Hermes-2-Pro-Mistral-7B",
     "command-r-plus-FC",
     "command-r-plus-FC-optimized",
+    "THUDM/glm-4-9b-chat"
 ]
