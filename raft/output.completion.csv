@@ -1,0 +1,157 @@
+prompt,completion,answer
+What position does Shyam Sundar currently hold at USEReady?,"Step 1: Identify the key elements in the question. The question is asking for the current position of Shyam Sundar at USEReady.
+
+Step 2: Look for the relevant information in the context. The context provides information about Shyam Sundar's experience at USEReady.
+
+Step 3: Extract the relevant information from the context. The context states: ##begin_quote##""USEReady April 2024 – Present Machine Learning Engineer Intern Bengaluru, Karnataka""##end_quote##. This indicates that Shyam Sundar is currently working as a Machine Learning Engineer Intern at USEReady.
+
+Step 4: Formulate the answer based on the extracted information. 
+
+<ANSWER>: Shyam Sundar currently holds the position of Machine Learning Engineer Intern at USEReady.", Shyam Sundar currently holds the position of Machine Learning Engineer Intern at USEReady.
+What kind of chatbot did Shyam Sundar develop during his internship at USEReady?,"Step 1: Identify the key elements in the question. The question is asking about the type of chatbot that Shyam Sundar developed during his internship at USEReady.
+
+Step 2: Look for relevant information in the context. The context provides information about Shyam Sundar's experience at USEReady, including the development of a chatbot.
+
+Step 3: Extract the relevant information from the context. The context states: ##begin_quote##""Developed a custom RAG chatbot that leverages multi-query generation and keyword extraction , integrates with Azure ,AWS , and local storage , and features an interactive Streamlit user interface.""##end_quote##
+
+Step 4: Formulate the answer. Based on the information from the context, Shyam Sundar developed a custom RAG chatbot during his internship at USEReady.
+
+<ANSWER>: Shyam Sundar developed a custom RAG chatbot during his internship at USEReady.", Shyam Sundar developed a custom RAG chatbot during his internship at USEReady.
+What technology was used to develop the LLM-Powered Coupon Recommender?,"Step 1: Identify the key elements in the question. The question is asking about the technology used to develop the LLM-Powered Coupon Recommender.
+
+Step 2: Look for the relevant information in the context. The context mentions the LLM-Powered Coupon Recommender and lists the technologies used in its development.
+
+Step 3: Extract the relevant information from the context. The context states: ##begin_quote##""LLM-Powered Coupon Recommender /github/video |Python, Streamlit, Langchain, OpenAI November 2023""##end_quote## and ##begin_quote##""Developed a QA system for e-commerce with personalized coupon recommendations using OpenAI’s LLMs . Streamlined user interactions through a Streamlit interface and Langchain for real-world scenario simulations.""##end_quote##
+
+Step 4: Formulate the answer based on the extracted information. The technologies used to develop the LLM-Powered Coupon Recommender are Python, Streamlit, Langchain, and OpenAI.
+
+<ANSWER>: The LLM-Powered Coupon Recommender was developed using Python, Streamlit, Langchain, and OpenAI."," The LLM-Powered Coupon Recommender was developed using Python, Streamlit, Langchain, and OpenAI."
+What was the main function of the LLM-Powered Coupon Recommender project?,"Step 1: Identify the key elements in the question. The question is asking about the main function of the ""LLM-Powered Coupon Recommender"" project.
+
+Step 2: Look for relevant information in the context. The context provides information about the LLM-Powered Coupon Recommender project, specifically mentioning that it was a QA system for e-commerce with personalized coupon recommendations.
+
+Step 3: Extract the relevant information from the context. The relevant information is: ##begin_quote##""Developed a QA system for e-commerce with personalized coupon recommendations using OpenAI’s LLMs""##end_quote##.
+
+Step 4: Formulate the answer. The main function of the LLM-Powered Coupon Recommender project was to develop a QA system for e-commerce that provides personalized coupon recommendations.
+
+<ANSWER>: The main function of the LLM-Powered Coupon Recommender project was to develop a QA system for e-commerce that provides personalized coupon recommendations.", The main function of the LLM-Powered Coupon Recommender project was to develop a QA system for e-commerce that provides personalized coupon recommendations.
+"What tools were used for the project ""PeopleCare Insurance Prediction""","Step 1: Identify the relevant information in the context. The question is asking about the tools used for the project ""PeopleCare Insurance Prediction"". The context provides this information in the first line.
+
+Step 2: Extract the relevant information. The context states: ##begin_quote## ""PeopleCare Insurance Prediction /github |Python, Jupyter, Azure Cloud, Flask, Docker October 2023"" ##end_quote##. This line lists the tools used for the project.
+
+Step 3: Formulate the answer. The tools used for the project ""PeopleCare Insurance Prediction"" are Python, Jupyter, Azure Cloud, Flask, and Docker.
+
+<ANSWER>: The tools used for the project ""PeopleCare Insurance Prediction"" are Python, Jupyter, Azure Cloud, Flask, and Docker."," The tools used for the project ""PeopleCare Insurance Prediction"" are Python, Jupyter, Azure Cloud, Flask, and Docker."
+What was the new expansion introduced in PeopleCare in October ,"Step 1: Identify the key elements in the question. The question is asking about a new expansion introduced in PeopleCare in October.
+
+Step 2: Look for relevant information in the context. The context mentions an expansion of PeopleCare in October 2023.
+
+Step 3: Extract the relevant information from the context. The context states, ##begin_quote##""Expanded PeopleCare into vehicle insurance with a predictive model for effective customer targeting.""##end_quote##
+
+Step 4: Formulate the answer based on the extracted information. The new expansion introduced in PeopleCare in October was the expansion into vehicle insurance with a predictive model for effective customer targeting.
+
+<ANSWER>: The new expansion introduced in PeopleCare in October was the expansion into vehicle insurance with a predictive model for effective customer targeting.", The new expansion introduced in PeopleCare in October was the expansion into vehicle insurance with a predictive model for effective customer targeting.
+What was the accuracy of the hate speech detection algorithm using the Bert model?,"To answer the question, we need to find the information about the accuracy of the hate speech detection algorithm using the Bert model. 
+
+In the context, the sentence ""Attained 91.95% accuracy with fine-tuned pre-existing Bert model"" provides the required information. 
+
+##begin_quote##
+•Attained 91.95% accuracy with fine-tuned pre-existing Bert model .
+##end_quote##
+
+This sentence tells us that the accuracy of the hate speech detection algorithm using the Bert model is 91.95%.
+
+<ANSWER>: The accuracy of the hate speech detection algorithm using the Bert model is 91.95%.", The accuracy of the hate speech detection algorithm using the Bert model is 91.95%.
+Which model was used to achieve an 80% prediction accuracy for hate speech prediction?,"Step 1: Identify the relevant information in the context. The question asks about the model used to achieve an 80% prediction accuracy for hate speech prediction. In the context, there are two models mentioned: LightGBM and a fine-tuned pre-existing Bert model. 
+
+Step 2: Match the accuracy with the model. The context states, ##begin_quote##""Achieved 80% prediction accuracy using LightGBM""##end_quote##. This directly answers the question as it mentions the model used to achieve the 80% prediction accuracy.
+
+Step 3: Ignore irrelevant information. The part of the context that mentions the Bert model achieving 91.95% accuracy is not relevant to the question, as it does not pertain to the 80% accuracy mentioned in the question.
+
+<ANSWER>: The model used to achieve an 80% prediction accuracy for hate speech prediction is LightGBM.", The model used to achieve an 80% prediction accuracy for hate speech prediction is LightGBM.
+What method was used for model deployment for scalability?,"Step 1: Understand the question. The question is asking about the method used for model deployment for scalability. 
+
+Step 2: Look for relevant information in the context. The context mentions ""Executed model deployment via Flask and Docker for scalability.""
+
+Step 3: Extract the necessary information. The method used for model deployment for scalability is Flask and Docker.
+
+Step 4: Formulate the answer. The answer to the question is Flask and Docker.
+
+##begin_quote##
+•Executed model deployment via Flask and Docker for scalability.
+##end_quote##
+
+<ANSWER>: The method used for model deployment for scalability is Flask and Docker.", The method used for model deployment for scalability is Flask and Docker.
+What was the recall rate achieved for predicting machine failures?,"To answer the question, we need to find the information related to the recall rate for predicting machine failures in the given context. 
+
+The relevant information is found in the sentence: ##begin_quote## ""Conceived 97% recall rate for predicting machine failures using logistic regression and SMOTE ."" ##end_quote##
+
+This sentence directly provides the recall rate achieved for predicting machine failures.
+
+<ANSWER>: The recall rate achieved for predicting machine failures was 97%.", The recall rate achieved for predicting machine failures was 97%.
+What tool was used to manage comprehensive data analysis and predictive modeling?,"Step 1: Identify the key elements in the question. The question is asking about the tool used for managing comprehensive data analysis and predictive modeling.
+
+Step 2: Look for these key elements in the context. The context mentions: ##begin_quote##""Managed in Azure Designer for comprehensive data analysis and predictive modeling.""##end_quote##
+
+Step 3: Match the information from the context to the question. The context clearly states that Azure Designer was used for managing comprehensive data analysis and predictive modeling.
+
+Step 4: Formulate the answer based on the information found in the context. 
+
+<ANSWER>: Azure Designer was used to manage comprehensive data analysis and predictive modeling.", Azure Designer was used to manage comprehensive data analysis and predictive modeling.
+What method did the user formulate for robust anomaly detection?,"Step 1: Identify the relevant information in the context that directly answers the question. The question is asking about the method the user formulated for robust anomaly detection. 
+
+Step 2: Locate this information in the context. The relevant information is found in the sentence: ""Formulated a statistical method for robust anomaly detection.""
+
+Step 3: Copy this sentence and include it in ##begin_quote## and ##end_quote## to indicate that it is a direct quote from the context.
+
+Step 4: Formulate the final answer based on this information. The answer should be concise and directly answer the question.
+
+##begin_quote##
+Formulated a statistical method for robust anomaly detection.
+##end_quote##
+
+<ANSWER>: The user formulated a statistical method for robust anomaly detection.", The user formulated a statistical method for robust anomaly detection.
+What type of model was used in the path prediction algorithm project?,"Step 1: Identify the relevant information in the context. The question is asking about the type of model used in the path prediction algorithm project. The first bullet point in the context provides information about this project.
+
+Step 2: Extract the relevant information from the context. The sentence in the first bullet point states: 
+##begin_quote##
+""Engineered a path prediction algorithm using a sequence-to-sequence model with an attention mechanism.""
+##end_quote##
+
+Step 3: Interpret the extracted information. From this sentence, we can understand that the model used in the path prediction algorithm project is a sequence-to-sequence model with an attention mechanism.
+
+<ANSWER>: The model used in the path prediction algorithm project is a sequence-to-sequence model with an attention mechanism.", The model used in the path prediction algorithm project is a sequence-to-sequence model with an attention mechanism.
+How many client nodes were involved in the CIFAR dataset training during the Federated Learning project?,"To answer the question, we need to identify the number of client nodes involved in the CIFAR dataset training during the Federated Learning project. This information is directly provided in the context.
+
+The relevant information is in the sentence: ##begin_quote## ""Utilized the CIFAR dataset for training, involving 20 client nodes with training activities based on the VGG-19 model."" ##end_quote##
+
+From this sentence, we can infer that 20 client nodes were involved in the CIFAR dataset training during the Federated Learning project.
+
+<ANSWER>: 20",20
+Which educational institute did this individual pursue their M.Tech in Modelling and Simulation from?,"To answer the question, we need to find the information about where the individual pursued their M.Tech in Modelling and Simulation. This information is located in the ""Education"" section of the context.
+
+The relevant information from the context is: 
+##begin_quote##
+Defence Institute of Advanced Technology Pune, IN
+M.Tech in Modelling and Simulation, GPA: 7.95 May 2023
+##end_quote##
+
+From this, we can see that the individual pursued their M.Tech in Modelling and Simulation from the Defence Institute of Advanced Technology in Pune, India.
+
+<ANSWER>: The individual pursued their M.Tech in Modelling and Simulation from the Defence Institute of Advanced Technology in Pune, India."," The individual pursued their M.Tech in Modelling and Simulation from the Defence Institute of Advanced Technology in Pune, India."
+What certifications does this individual hold in the field of data analysis and AI?,"To answer the question, we need to look at the section of the context that lists the certifications this individual holds. This section is labeled ""Certifications"". 
+
+The context provides the following information under ""Certifications"":
+##begin_quote##
+•Certified Associate Data Analyst
+•SQL [Advanced] - Hackerank
+•Management Consulting Mentorship
+•Generative AI at SAP•ML for Business professionals using No-Code AI tools
+•Python [Basic] - Hackerank
+•Software Engineer Intern -Hackerank
+•Generative AI Fundamentals - Databricks
+##end_quote##
+
+From this list, we can identify the certifications that are relevant to the field of data analysis and AI. These include ""Certified Associate Data Analyst"", ""SQL [Advanced] - Hackerank"", ""Generative AI at SAP"", ""ML for Business professionals using No-Code AI tools"", ""Python [Basic] - Hackerank"", and ""Generative AI Fundamentals - Databricks"".
+
+<ANSWER>: The individual holds the following certifications in the field of data analysis and AI: Certified Associate Data Analyst, SQL [Advanced] - Hackerank, Generative AI at SAP, ML for Business professionals using No-Code AI tools, Python [Basic] - Hackerank, and Generative AI Fundamentals - Databricks."," The individual holds the following certifications in the field of data analysis and AI: Certified Associate Data Analyst, SQL [Advanced] - Hackerank, Generative AI at SAP, ML for Business professionals using No-Code AI tools, Python [Basic] - Hackerank, and Generative AI Fundamentals - Databricks."

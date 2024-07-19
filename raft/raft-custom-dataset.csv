@@ -1,0 +1,17 @@
+prompt,answer
+What position does Shyam Sundar currently hold at USEReady?, Shyam Sundar currently holds the position of Machine Learning Engineer Intern at USEReady.
+What kind of chatbot did Shyam Sundar develop during his internship at USEReady?, Shyam Sundar developed a custom RAG chatbot during his internship at USEReady.
+What technology was used to develop the LLM-Powered Coupon Recommender?," The LLM-Powered Coupon Recommender was developed using Python, Streamlit, Langchain, and OpenAI."
+What was the main function of the LLM-Powered Coupon Recommender project?, The main function of the LLM-Powered Coupon Recommender project was to develop a QA system for e-commerce that provides personalized coupon recommendations.
+"What tools were used for the project ""PeopleCare Insurance Prediction"""," The tools used for the project ""PeopleCare Insurance Prediction"" are Python, Jupyter, Azure Cloud, Flask, and Docker."
+What was the new expansion introduced in PeopleCare in October , The new expansion introduced in PeopleCare in October was the expansion into vehicle insurance with a predictive model for effective customer targeting.
+What was the accuracy of the hate speech detection algorithm using the Bert model?, The accuracy of the hate speech detection algorithm using the Bert model is 91.95%.
+Which model was used to achieve an 80% prediction accuracy for hate speech prediction?, The model used to achieve an 80% prediction accuracy for hate speech prediction is LightGBM.
+What method was used for model deployment for scalability?, The method used for model deployment for scalability is Flask and Docker.
+What was the recall rate achieved for predicting machine failures?, The recall rate achieved for predicting machine failures was 97%.
+What tool was used to manage comprehensive data analysis and predictive modeling?, Azure Designer was used to manage comprehensive data analysis and predictive modeling.
+What method did the user formulate for robust anomaly detection?, The user formulated a statistical method for robust anomaly detection.
+What type of model was used in the path prediction algorithm project?, The model used in the path prediction algorithm project is a sequence-to-sequence model with an attention mechanism.
+How many client nodes were involved in the CIFAR dataset training during the Federated Learning project?,20
+Which educational institute did this individual pursue their M.Tech in Modelling and Simulation from?," The individual pursued their M.Tech in Modelling and Simulation from the Defence Institute of Advanced Technology in Pune, India."
+What certifications does this individual hold in the field of data analysis and AI?," The individual holds the following certifications in the field of data analysis and AI: Certified Associate Data Analyst, SQL [Advanced] - Hackerank, Generative AI at SAP, ML for Business professionals using No-Code AI tools, Python [Basic] - Hackerank, and Generative AI Fundamentals - Databricks."
