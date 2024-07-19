@@ -1,5 +1,3 @@
-from js_type_converter import js_type_converter
-from java_type_converter import java_type_converter
 from model_handler.constant import (
     UNDERSCORE_TO_DOT,
     JAVA_TYPE_CONVERSION,
@@ -11,6 +9,11 @@ import re
 import requests  # Do not remove this import even though it seems to be unused. It's used in the executable_checker_rest function.
 import time
 import json
+
+# We switch to conditional import for the following two imports to avoid unnecessary installations.
+# User doesn't need to setup the tree-sitter packages if they are not running the test for that language.
+# from js_type_converter import js_type_converter
+# from java_type_converter import java_type_converter
 
 PYTHON_TYPE_MAPPING = {
     "string": str,
@@ -362,9 +365,19 @@ def simple_function_checker(
         nested_type_converted = None
 
         if language == "Java":
+            from java_type_converter import java_type_converter
+
             expected_type_converted = JAVA_TYPE_CONVERSION[expected_type_description]
 
             if expected_type_description in JAVA_TYPE_CONVERSION:
+                if type(value) != str:
+                    result["valid"] = False
+                    result["error"].append(
+                        f"Incorrect type for parameter {repr(param)}. Expected type String, got {type(value).__name__}. Parameter value: {repr(value)}."
+                    )
+                    result["error_type"] = "type_error:java"
+                    return result
+
                 if expected_type_description in NESTED_CONVERSION_TYPE_LIST:
                     nested_type = param_details[param]["items"]["type"]
                     nested_type_converted = JAVA_TYPE_CONVERSION[nested_type]
@@ -375,9 +388,19 @@ def simple_function_checker(
                     value = java_type_converter(value, expected_type_description)
 
         elif language == "JavaScript":
+            from js_type_converter import js_type_converter
+
             expected_type_converted = JS_TYPE_CONVERSION[expected_type_description]
 
             if expected_type_description in JS_TYPE_CONVERSION:
+                if type(value) != str:
+                    result["valid"] = False
+                    result["error"].append(
+                        f"Incorrect type for parameter {repr(param)}. Expected type String, got {type(value).__name__}. Parameter value: {repr(value)}."
+                    )
+                    result["error_type"] = "type_error:js"
+                    return result
+
                 if expected_type_description in NESTED_CONVERSION_TYPE_LIST:
                     nested_type = param_details[param]["items"]["type"]
                     nested_type_converted = JS_TYPE_CONVERSION[nested_type]
@@ -393,8 +416,19 @@ def simple_function_checker(
                 nested_type = param_details[param]["items"]["type"]
                 nested_type_converted = PYTHON_TYPE_MAPPING[nested_type]
 
-        if expected_type_description == "tuple":
+        # We convert all tuple value to list when the expected type is tuple.
+        # The conversion is necessary because any tuple in the possible answer would become a list after being processed through json.dump() and json.load().
+        # This does introduce some false positive (eg, when the model provides a list value instead of tuple). We hope to find a better solution in the future.
+        if expected_type_description == "tuple" and type(value) == tuple:
             value = list(value)
+
+        # Allow python auto conversion from int to float
+        if (
+            language == "Python"
+            and expected_type_description == "float"
+            and type(value) == int
+        ):
+            value = float(value)
 
         # Type checking
         # In fact, we only check for Python here.

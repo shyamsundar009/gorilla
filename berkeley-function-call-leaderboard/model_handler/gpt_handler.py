@@ -34,8 +34,7 @@ class OpenAIHandler(BaseHandler):
                 },
                 {
                     "role": "user",
-                    "content": "Questions:"
-                    + USER_PROMPT_FOR_CHAT_MODEL.format(
+                    "content": USER_PROMPT_FOR_CHAT_MODEL.format(
                         user_prompt=prompt, functions=str(functions)
                     ),
                 },
@@ -55,7 +54,7 @@ class OpenAIHandler(BaseHandler):
             functions = language_specific_pre_processing(functions, test_category, True)
             if type(functions) is not list:
                 functions = [functions]
-            message = [{"role": "user", "content": "Questions:" + prompt}]
+            message = [{"role": "user", "content": prompt}]
             oai_tool = convert_to_tool(
                 functions, GORILLA_TO_OPENAPI, self.model_style, test_category, True
             )
@@ -99,12 +98,6 @@ class OpenAIHandler(BaseHandler):
             for invoked_function in result:
                 name = list(invoked_function.keys())[0]
                 params = json.loads(invoked_function[name])
-                if language == "Python":
-                    pass
-                else:
-                    # all values of the json are casted to string for java and javascript
-                    for key in params:
-                        params[key] = str(params[key])
                 decoded_output.append({name: params})
         return decoded_output
     
